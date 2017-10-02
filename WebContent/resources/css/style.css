@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+div.footer{
+	border-top: 2px solid gray;
+	font-size: small;
+	color: gray;
+	padding-top: 5px; 
+}
+div.header{
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	background-color: silver;
+	position: relative;
+}
+div.content{
+	position: relative;
+	padding: 30px;
+}
+a.login{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+a.title{
+	font-size: 30px;
+	
+}
+
+.error{
+	font-size: small;
+	color: red;
+	margin-left: 10px; 
+}
+.valid{
+	font-size: small;
+	color: green;
+	margin-left: 10px; 
+}
+input[type=text]{
+	width: 200px;
+}
+input[type=password]{
+	width: 200px;
+}
+
+textarea {
+	width: 250px;
+	height: 200px;
+	margin-left: 0px;
+
+}
+
+.label{
+	vertical-align: top;
+}
+.formtable{
+	width: 600px;
+	padding: 10px;
+	border: 2px solid blue;
+}
+
+.control{
+	margin-left: 10px;
+}
+.home{
+	padding: 10px;
+	border: 2px solid blue;
+}
