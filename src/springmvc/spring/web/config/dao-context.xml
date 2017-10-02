@@ -9,8 +9,6 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
 
-
-
 	<jee:jndi-lookup jndi-name="jdbc/spring" id="dataSource"
 		expected-type="javax.sql.DataSource">
 	</jee:jndi-lookup>
